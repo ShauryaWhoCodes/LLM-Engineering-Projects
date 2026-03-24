@@ -1,0 +1,115 @@
+# ========================
+# Python
+# ========================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ========================
+# Virtual Environments
+# ========================
+.venv/
+venv/
+env/
+ENV/
+
+# ========================
+# Environment Variables
+# ========================
+# NEVER commit API keys or secrets
+.env
+.env.*
+!.env.example
+
+# ========================
+# Jupyter Notebooks
+# ========================
+# Checkpoint files created when saving notebooks
+.ipynb_checkpoints/
+
+# ========================
+# IDE / Editor Settings
+# ========================
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains (PyCharm, etc.)
+.idea/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ========================
+# OS-generated Files
+# ========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ========================
+# Package Manager / Lock Files
+# ========================
+# uv lock file (optional — include if you want reproducible builds)
+# uv.lock
+
+# ========================
+# ML / Data Artifacts
+# ========================
+# Model weights & checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.h5
+
+# Large datasets
+*.csv
+*.parquet
+*.arrow
+*.jsonl
+
+# Vector DB local storage
+chroma_data/
+chromadb/
+
+# Weights & Biases
+wandb/
+
+# ========================
+# Miscellaneous
+# ========================
+# Logs
+*.log
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
